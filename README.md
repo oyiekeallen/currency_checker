@@ -29,15 +29,8 @@ python3 currency.py --currency RWF
 This program was tested using the following library version:
 
 ```
-Requirement.txt
+requirement.txt
 
 click==7.1.2
 
 ```
-
-## Licence
-This program is licensed under
-```
-```
- 
-
