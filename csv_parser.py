@@ -47,6 +47,5 @@ def currency_present(currency_list, currency_code):
 	for row in currency_list:
 		if len(row[-1]) == 3 and row[-1].lower() == currency_code.lower():
 			return True
-		else :
-			return False
+	return False
 

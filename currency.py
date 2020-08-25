@@ -18,7 +18,7 @@ def main(currency):
 		# Get sorted list 
 		sorted_list = csv_parser.sort_file_contents("Cheap.Stocks.Internationalization.Currencies.csv")
 
-		# Check ig currency is supported
+		# Check if currency is supported
 		result = csv_parser.currency_present(sorted_list, currency)
 
 		# Print result
